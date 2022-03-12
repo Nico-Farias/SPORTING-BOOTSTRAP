@@ -1,0 +1,103 @@
+.margin-1rem {
+    margin: rem;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.img-header {
+    padding: 1rem;
+}
+
+.h1-header {
+    text-transform: uppercase;
+    padding-top: 2rem;
+    font-weight: bold;
+}
+
+main h2 {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.a-nav {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.boton-socios {
+    margin-top: 15rem;
+    color: yellow;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.boton-socios:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.bg-pag {
+    background-color: rgb(238, 227, 168);
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 1rem;
+}
+
+.redes {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    background-color: rgb(238, 227, 168);
+}
+
+.redes h3 {
+    color: rgb(12, 12, 10);
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.redes a i {
+    font-size: 4rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: black;
+}
+
+.redes a i:hover {
+    cursor: pointer;
+    color: rgb(36, 36, 32);
+    background-color: yellow;
+    border-radius: 10rem;
+}
+
+.footer .maps .mapouter {
+    padding: 2rem;
+    text-align: right;
+    border: 2px soli rgb(10, 9, 9);
+}
+
+.copy {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(216, 216, 56);
+    background-color: black;
+}
+
+.mapouter {
+    text-align: right;
+    height: 305px;
+    width: 364px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    height: 305px;
+    width: 364px;
+}
