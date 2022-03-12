@@ -113,3 +113,26 @@ h5-camp {
 p-camp {
     font-size: 1.5rem;
 }
+
+.card img {
+    height: 250px;
+    margin-top: 10px;
+}
+
+.card h5 {
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+.card-p {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.h2-club {
+    margin-right: 14rem;
+    padding-top: 3rem;
+}
