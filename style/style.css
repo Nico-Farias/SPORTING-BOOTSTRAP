@@ -101,3 +101,15 @@ main h2 {
     height: 305px;
     width: 364px;
 }
+
+
+/* CAMPING */
+
+h5-camp {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p-camp {
+    font-size: 1.5rem;
+}
