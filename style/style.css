@@ -31,11 +31,16 @@ main h2 {
     font-weight: bold;
 }
 
+.a-nav-activo {
+    box-shadow: 10px 6px 10px black;
+}
+
 .boton-socios {
     margin-top: 15rem;
     color: yellow;
     background-color: black;
     text-transform: uppercase;
+    box-shadow: 10px 6px 10px black;
 }
 
 .boton-socios:hover {
@@ -45,6 +50,13 @@ main h2 {
 
 .bg-pag {
     background-color: rgb(238, 227, 168);
+}
+
+.padding-img {
+    width: 350px;
+    height: 250px;
+    box-shadow: 30px 15px 30px;
+    margin: 1rem 0 1rem 1rem;
 }
 
 
@@ -73,6 +85,7 @@ main h2 {
     padding: 1.5rem;
     text-align: center;
     color: black;
+    box-shadow: 10px 6px 30px rgb(83, 76, 76);
 }
 
 .redes a i:hover {
@@ -125,6 +138,10 @@ p-camp {
     margin-top: 10px;
 }
 
+.sombra {
+    box-shadow: 10px 6px 10px rgb(63, 60, 60);
+}
+
 .card h5 {
     font-weight: bold;
 }
@@ -136,6 +153,7 @@ p-camp {
 .card-p {
     border: 1px solid black;
     margin: 20px;
+    box-shadow: 25px 10px 20px rgb(36, 32, 32);
 }
 
 .h2-club {
@@ -150,6 +168,7 @@ p-camp {
     color: yellow;
     background-color: black;
     font-weight: bold;
+    box-shadow: 10px 6px 10px black;
 }
 
 .btn-socios:hover {
@@ -160,4 +179,18 @@ p-camp {
 
 .h2-socios {
     padding: 4rem 0;
+    box-shadow: 10px 6px 10px black;
+}
+
+
+/* CONTACTO */
+
+.main-contacto {
+    border: 2px solid rgb(51, 46, 46);
+    background-color: rgb(247, 239, 197);
+    box-shadow: 10px 6px 10px black;
+}
+
+.main-contacto form {
+    padding: 2rem;
 }
