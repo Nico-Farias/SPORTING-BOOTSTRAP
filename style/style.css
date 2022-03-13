@@ -10,9 +10,14 @@
     padding: 1rem;
 }
 
+.img-header img {
+    width: 150px;
+    height: 150px;
+}
+
 .h1-header {
     text-transform: uppercase;
-    padding-top: 2rem;
+    padding-top: 4rem;
     font-weight: bold;
 }
 
@@ -88,6 +93,7 @@ main h2 {
     text-align: center;
     color: rgb(216, 216, 56);
     background-color: black;
+    margin-bottom: 0;
 }
 
 .mapouter {
@@ -135,4 +141,23 @@ p-camp {
 .h2-club {
     margin-right: 14rem;
     padding-top: 3rem;
+}
+
+
+/* SOCIOS */
+
+.btn-socios {
+    color: yellow;
+    background-color: black;
+    font-weight: bold;
+}
+
+.btn-socios:hover {
+    color: black;
+    background-color: yellow;
+    transition: 1s;
+}
+
+.h2-socios {
+    padding: 4rem 0;
 }
