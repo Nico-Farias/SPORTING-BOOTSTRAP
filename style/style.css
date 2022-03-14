@@ -10,6 +10,10 @@
     padding: 1rem;
 }
 
+.img-header:hover {
+    transform: scale(1.2);
+}
+
 .img-header img {
     width: 150px;
     height: 150px;
@@ -31,13 +35,18 @@ main h2 {
     font-weight: bold;
 }
 
+.a-nav:hover {
+    transform: scale(1.1);
+}
+
 .a-nav-activo {
-    box-shadow: 10px 6px 10px black;
+    background-color: rgb(238, 227, 168);
 }
 
 .boton-socios {
     margin-top: 15rem;
     color: yellow;
+    font-weight: bold;
     background-color: black;
     text-transform: uppercase;
     box-shadow: 10px 6px 10px black;
@@ -46,6 +55,7 @@ main h2 {
 .boton-socios:hover {
     background-color: yellow;
     color: black;
+    transform: scale(1.2);
 }
 
 .bg-pag {
@@ -57,6 +67,22 @@ main h2 {
     height: 250px;
     box-shadow: 30px 15px 30px;
     margin: 1rem 0 1rem 1rem;
+}
+
+@media (max-width:991px) {
+    .boton-socios {
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+    }
+    .h1-header {
+        padding-bottom: 2rem;
+    }
+}
+
+@media(min-width:970) {
+    .h2-club {
+        margin-right: 12rem;
+    }
 }
 
 
@@ -85,7 +111,6 @@ main h2 {
     padding: 1.5rem;
     text-align: center;
     color: black;
-    box-shadow: 10px 6px 30px rgb(83, 76, 76);
 }
 
 .redes a i:hover {
@@ -93,6 +118,7 @@ main h2 {
     color: rgb(36, 36, 32);
     background-color: yellow;
     border-radius: 10rem;
+    transform: scale(1.2);
 }
 
 .footer .maps .mapouter {
@@ -124,12 +150,12 @@ main h2 {
 
 /* CAMPING */
 
-h5-camp {
+.h5-camp {
     font-weight: bold;
     font-size: 2rem;
 }
 
-p-camp {
+.p-camp {
     font-size: 1.5rem;
 }
 
@@ -157,7 +183,6 @@ p-camp {
 }
 
 .h2-club {
-    margin-right: 14rem;
     padding-top: 3rem;
 }
 
@@ -175,6 +200,7 @@ p-camp {
     color: black;
     background-color: yellow;
     transition: 1s;
+    transform: scale(1.2);
 }
 
 .h2-socios {
@@ -193,4 +219,14 @@ p-camp {
 
 .main-contacto form {
     padding: 2rem;
+}
+
+.info {
+    padding-top: 3rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.info h3 {
+    font-weight: bold;
 }
